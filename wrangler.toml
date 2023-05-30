@@ -1,6 +1,7 @@
 name = "hestia-ip-check"
 main = "src/worker.ts"
 compatibility_date = "2023-05-30"
+account_id = "9ce520470f3cc750a19c3cc4e04aa7ad"
 
 # # KV Namespace binding - For more information: https://developers.cloudflare.com/workers/runtime-apis/kv
 # [[kv_namespaces]]
