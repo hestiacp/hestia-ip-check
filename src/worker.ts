@@ -8,10 +8,6 @@
  * Learn more at https://developers.cloudflare.com/workers/
  */
 
-import handleProxy from './proxy';
-import handleRedirect from './redirect';
-import apiRouter from './router';
-
 // Export a default object containing event handlers
 export default {
 	async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
